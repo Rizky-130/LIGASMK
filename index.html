@@ -1,375 +1,1198 @@
+```html
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="id" class="scroll-smooth">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <script src="https://cdn.tailwindcss.com"></script>
-  <title>RIZKY SMK BINA PUTRA MANDIRI</title>
+
+  <title>Rizky - SMK Bina Putra Mandiri</title>
 </head>
 
-<body class="bg-gray-100">
-  <nav class="flex justify-around bg-white p-5">
-    <div><a href="smkcoding.id"><img src="assets/logo-ligasmk-dark.png" alt="logo" /></a></div>
-    <div class="content-baseline">
-      <a class="m-5 font-medium text-violet-700" href="#">Home <img src="assets/icon-arrow-bottom.svg"
-          class="inline"></a>
-      <a class="m-5 font-medium" href="#">About Us <img src="assets/icon-arrow-bottom.svg" class="inline"></a>
-      <a class="m-5 font-medium" href="#kelas">Kelas <img src="assets/icon-arrow-bottom.svg" class="inline"></a>
-      <a class="m-5 font-medium" href="#">Blog <img src="assets/icon-arrow-bottom.svg" class="inline"></a>
-      <a class="m-5 font-medium" href="#">Contact </a>
-    </div>
-  </nav>
-  <section id="home" class="h-screen bg-blue-200 flex justify-around">
-    <div class="my-auto w-[28rem]">
-      <h1 class="text-7xl font-semibold">Bergabunglah dengan jutaan orang dan belajar hal baru</h1>
-      <h3 class="font-base text-gray-500 my-5">Mengubah kehidupan, bisnis dan bangsa melalui transformasi talenta di
-        bidang
-        teknologi
-        digital</h3>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="sticky top-0 z-50 bg-white shadow-sm">
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+      <!-- Logo -->
+      <a href="#" class="shrink-0">
+        <img
+          src="assets/logo-ligasmk-dark.png"
+          alt="Liga SMK"
+          class="h-10"
+        >
+      </a>
+
+      <!-- Desktop Menu -->
+      <div class="hidden lg:flex items-center gap-8">
+
+        <a href="#home" class="font-medium text-violet-700">
+          Home
+        </a>
+
+        <a href="#info" class="font-medium hover:text-violet-700 transition">
+          About Us
+        </a>
+
+        <a href="#kelas" class="font-medium hover:text-violet-700 transition">
+          Kelas
+        </a>
+
+        <a href="#event" class="font-medium hover:text-violet-700 transition">
+          Blog
+        </a>
+
+        <a href="#contact" class="font-medium hover:text-violet-700 transition">
+          Contact
+        </a>
+
+      </div>
+
+      <!-- Mobile Menu Button -->
       <button
-        class="bg-indigo-700   box-border w-[11rem] h-[2rem] rounded hover:bg-violet-800 transition duration-200"><a
-          class="text-white" href="#kelas">Mulai
-          Belajar
-          <img class="inline ms-8" src="assets/icon-arrowlong-right.svg" alt=""></a></button>
-    </div>
-    <div><img src="assets/shape-diagram.png" alt=""></div>
-  </section>
-  <section id="info" class="h-[10rem] bg-yellow-500 flex justify-around items-center">
-    <div>
-      <img class="float-left" src="assets/icon-online-education.svg" alt="">
-      <div class="ms-[5rem]">
-        <h1 class="font-bold ">Membangun Karir</h1>
-        <p>Semua yang butuh kerja</p>
-      </div>
-    </div>
-    <div>
-      <img class="float-left" src="assets/icon-globe-handphone.svg" alt="">
-      <div class="ms-[5rem]">
-        <h1 class="font-bold ">Cari Materi Belajar</h1>
-        <p>Seberapa pengetahuan kamu</p>
-      </div>
-    </div>
-    <div>
-      <img class="float-left" src="assets/icon-online-education-laptop.svg" alt="">
-      <div class="ms-[5rem]">
-        <h1 class="font-bold ">Kuasai Skill Baru</h1>
-        <p>Fokus apa yang dibutuhkan</p>
-      </div>
-    </div>
-  </section>
-  <section id="kelas" class="h-screen">
-    <div class="flex justify-around mt-16">
-      <h1 class="text-3xl font-bold">Pembelajaran <span class="border-b-4 border-yellow-400">Populer</span></h1>
+        class="lg:hidden text-2xl"
+        aria-label="Open menu"
+      >
+        ☰
+      </button>
+
+    </nav>
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+  <section
+    id="home"
+    class="min-h-screen bg-blue-200 flex items-center"
+  >
+
+    <div
+      class="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center w-full"
+    >
+
+      <!-- Text -->
       <div>
-        <a class="m-4 hover:bg-white hover:shadow-lg p-2 box-contain transition duration-200" href="#">Javascript</a>
-        <a class=" m-4 hover:bg-white hover:shadow-lg p-2 box-contain transition duration-200" href="#">Phyton</a>
-        <a class=" m-4 hover:bg-white hover:shadow-lg p-2 box-contain transition duration-200" href="#">Web
-          Development</a>
-        <a class="m-4 hover:bg-white hover:shadow-lg p-2 box-contain transition duration-200" href="#">Art & Design</a>
-        <a class=" m-4 hover:bg-white hover:shadow-lg p-2 box-contain transition duration-200" href="#">Businses</a>
+
+        <p class="text-violet-700 font-semibold mb-4">
+          BELAJAR & BERKEMBANG
+        </p>
+
+        <h1
+          class="text-4xl sm:text-5xl lg:text-7xl font-semibold leading-tight"
+        >
+          Bergabunglah dengan jutaan orang dan belajar hal baru
+        </h1>
+
+        <p class="text-gray-600 text-lg mt-6 max-w-xl">
+          Mengubah kehidupan, bisnis dan bangsa melalui transformasi
+          talenta di bidang teknologi digital.
+        </p>
+
+        <a
+          href="#kelas"
+          class="inline-flex items-center gap-4 mt-8 bg-indigo-700 hover:bg-violet-800 text-white px-6 py-3 rounded transition duration-200"
+        >
+          Mulai Belajar
+          <img
+            src="assets/icon-arrowlong-right.svg"
+            alt=""
+            class="w-5"
+          >
+        </a>
+
       </div>
+
+      <!-- Illustration -->
+      <div class="flex justify-center">
+        <img
+          src="assets/shape-diagram.png"
+          alt="Ilustrasi pembelajaran"
+          class="max-w-full"
+        >
+      </div>
+
     </div>
-    <div class="grid grid-cols-4 gap-4 w-[80rem] mx-auto mt-10">
-      <div class="w-[16rem] border pb-5">
-        <img src="assets/course-1.png" alt="">
-        <div class="mx-6 mt-2">
-          <p class="font-bold text-violet-700 text-sm">Rizky</p>
-          <h1 class="font-bold">Why Learn Intermediate SQL for Marketers?</h1>
-          <div>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-hamburger.svg" alt="">Beginner</p>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-copy.svg" alt="">3 Lessons</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-[16rem] border pb-5">
-        <img src="assets/course-2.png" alt="">
-        <div class="mx-6 mt-2">
-          <p class="font-bold text-violet-700 text-sm">Rizky</p>
-          <h1 class="font-bold">Why Learn Intermediate SQL for Marketers?</h1>
-          <div>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-hamburger.svg" alt="">Beginner</p>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-copy.svg" alt="">3 Lessons</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-[16rem] border pb-5">
-        <img src="assets/course-3.png" alt="">
-        <div class="mx-6 mt-2">
-          <p class="font-bold text-violet-700 text-sm">Rizky</p>
-          <h1 class="font-bold">Why Learn Intermediate SQL for Marketers?</h1>
-          <div>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-hamburger.svg" alt="">Beginner</p>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-copy.svg" alt="">3 Lessons</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-[16rem] border pb-5">
-        <img src="assets/course-4.png" alt="">
-        <div class="mx-6 mt-2">
-          <p class="font-bold text-violet-700 text-sm">Rizky</p>
-          <h1 class="font-bold">Why Learn Intermediate SQL for Marketers?</h1>
-          <div>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-hamburger.svg" alt="">Beginner</p>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-copy.svg" alt="">3 Lessons</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-[16rem] border pb-5">
-        <img src="assets/course-5.png" alt="">
-        <div class="mx-6 mt-2">
-          <p class="font-bold text-violet-700 text-sm">Rizky</p>
-          <h1 class="font-bold">Why Learn Intermediate SQL for Marketers?</h1>
-          <div>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-hamburger.svg" alt="">Beginner</p>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-copy.svg" alt="">3 Lessons</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-[16rem] border pb-5">
-        <img src="assets/course-6.png" alt="">
-        <div class="mx-6 mt-2">
-          <p class="font-bold text-violet-700 text-sm">Rizky</p>
-          <h1 class="font-bold">Why Learn Intermediate SQL for Marketers?</h1>
-          <div>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-hamburger.svg" alt="">Beginner</p>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-copy.svg" alt="">3 Lessons</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-[16rem] border pb-5">
-        <img src="assets/course-7.png" alt="">
-        <div class="mx-6 mt-2">
-          <p class="font-bold text-violet-700 text-sm">Rizky</p>
-          <h1 class="font-bold">Why Learn Intermediate SQL for Marketers?</h1>
-          <div>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-hamburger.svg" alt="">Beginner</p>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-copy.svg" alt="">3 Lessons</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-[16rem] border pb-5">
-        <img src="assets/course-8.png" alt="">
-        <div class="mx-6 mt-2">
-          <p class="font-bold text-violet-700 text-sm">Rizky</p>
-          <h1 class="font-bold">Why Learn Intermediate SQL for Marketers?</h1>
-          <div>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-hamburger.svg" alt="">Beginner</p>
-            <p class="inline me-2"><img class="inline m-1" src="assets/icon-copy.svg" alt="">3 Lessons</p>
-          </div>
-        </div>
-      </div>
-    </div>
+
   </section>
-  <section class=" bg-orange-100 ">
-    <div class="h-[20rem] flex justify-around items-center w-[80rem] mx-auto">
-      <img src="assets/membership-image.png" alt="">
-      <h1 class="text-3xl font-bold w-[35rem]">Dapatkan membership pro GRATIS untuk kelas kamu.</h1>
-      <button
-        class="bg-indigo-800 hover:bg-indigo-900 transition duration-200 w-[10rem] box-border h-[2.4rem] p-2 text-white"><a
-          href="#kelas">lihat
-          semua
-          kelas</a></button>
-    </div>
-  </section>
-  <section id="kategori" class="h-full mt-16">
-    <h1 class="text-center text-3xl font-bold">Kategori <span class="border-b-4 border-yellow-400">Populer</span></h1>
-    <div class="w-[80rem] mx-auto grid grid-cols-4 gap-4 mt-16">
-      <div class="border h-24 w-[16rem] bg-white">
-        <div class="float-left ms-2 mt-2 bg-blue-200 rounded-full bg-cover bg-center w-20 h-20"><img
-            class="translate-y-5 translate-x-5 " src="assets/icon-chemical.svg" alt="">
-        </div>
-        <div class="mt-4">
-          <h1 class="ms-[7rem] font-bold text-xl">Kimia</h1>
-          <p class="ms-[7rem] font-bold text-gray-500 text-sm">2 Kelas</p>
-        </div>
-      </div>
-      <div class="border h-24 w-[16rem] bg-white">
-        <div class="float-left ms-2 mt-2 bg-blue-200 rounded-full bg-cover bg-center w-20 h-20"><img
-            class="translate-y-5 translate-x-5 " src="/assets/icon-calendar.svg" alt="">
-        </div>
-        <div class="mt-4">
-          <h1 class="ms-[7rem] font-bold text-xl">Managemen</h1>
-          <p class="ms-[7rem] font-bold text-gray-500 text-sm">2 Kelas</p>
-        </div>
-      </div>
-      <div class="border h-24 w-[16rem] bg-white">
-        <div class="float-left ms-2 mt-2 bg-blue-200 rounded-full bg-cover bg-center w-20 h-20"><img
-            class="translate-y-5 translate-x-5 " src="/assets/icon-pencil-ruler.svg" alt="">
-        </div>
-        <div class="mt-4">
-          <h1 class="ms-[7rem] font-bold text-xl">Seni Budaya</h1>
-          <p class="ms-[7rem] font-bold text-gray-500 text-sm">2 Kelas</p>
-        </div>
-      </div>
-      <div class="border h-24 w-[16rem] bg-white">
-        <div class="float-left ms-2 mt-2 bg-blue-200 rounded-full bg-cover bg-center w-20 h-20"><img
-            class="translate-y-5 translate-x-5 " src="/assets/icon-briefcase.svg" alt="">
-        </div>
-        <div class="mt-4">
-          <h1 class="ms-[7rem] font-bold text-xl">Bisnis</h1>
-          <p class="ms-[7rem] font-bold text-gray-500 text-sm">2 Kelas</p>
-        </div>
-      </div>
-      <div class="border h-24 w-[16rem] bg-white">
-        <div class="float-left ms-2 mt-2 bg-blue-200 rounded-full bg-cover bg-center w-20 h-20"><img
-            class="translate-y-5 translate-x-5 " src="/assets/icon-science.svg" alt="">
-        </div>
-        <div class="mt-4">
-          <h1 class="ms-[7rem] font-bold text-xl">Astrologi</h1>
-          <p class="ms-[7rem] font-bold text-gray-500 text-sm">2 Kelas</p>
-        </div>
-      </div>
-      <div class="border h-24 w-[16rem] bg-white">
-        <div class="float-left ms-2 mt-2 bg-blue-200 rounded-full bg-cover bg-center w-20 h-20"><img
-            class="translate-y-5 translate-x-5 " src="/assets/icon-rocket.png" alt="">
-        </div>
-        <div class="mt-4">
-          <h1 class="ms-[7rem] font-bold text-xl">SEO</h1>
-          <p class="ms-[7rem] font-bold text-gray-500 text-sm">2 Kelas</p>
-        </div>
-      </div>
-      <div class="border h-24 w-[16rem] bg-white">
-        <div class="float-left ms-2 mt-2 bg-blue-200 rounded-full bg-cover bg-center w-20 h-20"><img
-            class="translate-y-5 translate-x-5 " src="/assets/icon-space.svg" alt="">
-        </div>
-        <div class="mt-4">
-          <h1 class="ms-[7rem] font-bold text-xl">Kosmologi</h1>
-          <p class="ms-[7rem] font-bold text-gray-500 text-sm">2 Kelas</p>
-        </div>
-      </div>
-      <div class="border h-24 w-[16rem] bg-white">
-        <div class="float-left ms-2 mt-2 bg-blue-200 rounded-full bg-cover bg-center w-20 h-20"><img
-            class="translate-y-5 translate-x-5 " src="/assets/icon-microscope.svg" alt="">
-        </div>
-        <div class="mt-4">
-          <h1 class="ms-[7rem] font-bold text-xl">Biologi</h1>
-          <p class="ms-[7rem] font-bold text-gray-500 text-sm">2 Kelas</p>
-        </div>
-      </div>
-    </div>
-    <div class="w-44 mx-auto mt-10">
-      <a class="text-violet-700 font-bold" href="#allcourse">Explore All Courses <img class="inline"
-          src="/assets/icon-double-next.svg"></a>
-    </div>
-    <div class="w-[80rem] bg-blue-200 mx-auto box-border p-12 mt-20 flex justify-around  items-center">
-      <div><img src="assets/business-image.png" alt=""></div>
-      <div class="w-[25rem]">
-        <h1 class="text-4xl font-bold">Tingkatkan skill tim Anda</h1>
-        <p class="mt-10">Berikan tim anda pengetahuan, pengalaman, dan keyakinan yanng mereka butuhkan untuk mengatasi
-          setiap masalah.
-          Kami ingin menciptakan dunia dimana siapa pun dapat membangun sesuatu yang bermakna</p>
-        <button
-          class="bg-indigo-700 rounded mt-20 hover:bg-indigo-900 transition duration-200 w-[10rem] box-border h-[2.4rem] p-2 text-white"><a
-            href="#">Try For Business</a></button>
-      </div>
-    </div>
-  </section>
-  <section id="event" class="h-full mt-20">
-    <h1 class="text-center mt-10 text-3xl font-bold">Event <span class="border-b-4 border-yellow-400">sedang
-        berlangsung</span> di dekatmu</h1>
-    <div class="grid grid-cols-3 gap-3 w-[70rem] mx-auto mt-10">
-      <div class="mt-16 w-[20rem]"><img src="/assets/event-1.png">
-        <div class="flex items-center mt-10">
-          <div class=" me-2 border-r-2 border-gray-500 ">
-            <h1 class="text-3xl font-bold text-violet-700">21</h1>
-            <p class=" font-bold text-gray-500 me-2">March</p>
-          </div>
-          <div class=""><img class="inline" src="/assets/icon-location.svg" alt="">
-            <p class="inline">North Caroline United States</p>
-          </div>
-        </div>
-        <h1 class="text-xl font-bold">Linear Regression in Python: <br>
-          Introduction to Simple Linear</h1>
-      </div>
-      <div class="mt-16 w-[20rem]"><img src="/assets/event-2.png">
-        <div class="flex items-center mt-10">
-          <div class=" me-2 border-r-2 border-gray-500 ">
-            <h1 class="text-3xl font-bold text-violet-700">21</h1>
-            <p class=" font-bold text-gray-500 me-2">March</p>
-          </div>
-          <div class=""><img class="inline" src="/assets/icon-location.svg" alt="">
-            <p class="inline">North Caroline United States</p>
-          </div>
-        </div>
-        <h1 class="text-xl font-bold">Linear Regression in Python: <br>
-          Introduction to Simple Linear</h1>
-      </div>
-      <div class="mt-16 w-[20rem]"><img src="/assets/event-3.png">
-        <div class="flex items-center mt-10">
-          <div class=" me-2 border-r-2 border-gray-500 ">
-            <h1 class="text-3xl font-bold text-violet-700">21</h1>
-            <p class=" font-bold text-gray-500 me-2">March</p>
-          </div>
-          <div class=""><img class="inline" src="/assets/icon-location.svg" alt="">
-            <p class="inline">North Caroline United States</p>
-          </div>
-        </div>
-        <h1 class="text-xl font-bold">Linear Regression in Python: <br>
-          Introduction to Simple Linear</h1>
-      </div>
-    </div>
-  </section>
-  <footer class="h-screen bg-gray-950 mt-16 text-white">
-    <div class="w-[80rem] mx-auto">
-      <div class="flex justify-between border-b-2 border-gray-500 pb-20">
-        <div class="w-[20rem] mt-16"><img src="/assets/logo-ligasmk-white.png" alt="logo">
-          <p class="mt-10">Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta di bidang teknologi
-            digital</p>
-          <div class="flex mt-10">
-            <a href="#"><img class="m-4" src="/assets/icon-facebook-white.svg" alt="facebook"></a>
-            <a href="#"><img class="m-4" src="/assets/icon-twitter-white.svg" alt="twitter"></a>
-            <a href="#"><img class="m-4" src="/assets/icon-linkedin-white.svg" alt="linkedin"></a>
-            <a href="#"><img class="m-4" src="/assets/icon-youtube-white.svg" alt="youtube"></a>
-          </div>
-        </div>
-        <div class="w-[20rem] mt-16">
-          <h1 class="text-xl font-bold">Resources</h1>
-          <p class="mt-10">Build Career</p>
-          <p class="mt-5">Explore Subjects</p>
-          <p class="mt-5">Gain a Skill</p>
-        </div>
-        <div class="w-[20rem] mt-16">
-          <h1 class="text-xl font-bold">
-            Support
-          </h1>
-          <p class="mt-10"><a href="#">Web Development</a></p>
-          <p class="mt-5"><a href="#">Data Science</a></p>
-          <p class="mt-5"> <a href="#">Machine Learning</a>
+
+
+  <!-- ================= INFO ================= -->
+  <section
+    id="info"
+    class="bg-yellow-500"
+  >
+
+    <div
+      class="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8"
+    >
+
+      <!-- Item -->
+      <div class="flex items-center gap-5">
+
+        <img
+          src="assets/icon-online-education.svg"
+          alt=""
+          class="w-14 h-14"
+        >
+
+        <div>
+          <h2 class="font-bold">
+            Membangun Karir
+          </h2>
+
+          <p class="text-sm">
+            Semua yang butuh kerja
           </p>
-          <p class="mt-5"><a href="#">Developer</a></p>
-          <p class="mt-5"><a href="#">Web Design</a>
+        </div>
+
+      </div>
+
+
+      <!-- Item -->
+      <div class="flex items-center gap-5">
+
+        <img
+          src="assets/icon-globe-handphone.svg"
+          alt=""
+          class="w-14 h-14"
+        >
+
+        <div>
+          <h2 class="font-bold">
+            Cari Materi Belajar
+          </h2>
+
+          <p class="text-sm">
+            Seberapa pengetahuan kamu
           </p>
+        </div>
+
+      </div>
+
+
+      <!-- Item -->
+      <div class="flex items-center gap-5">
+
+        <img
+          src="assets/icon-online-education-laptop.svg"
+          alt=""
+          class="w-14 h-14"
+        >
+
+        <div>
+          <h2 class="font-bold">
+            Kuasai Skill Baru
+          </h2>
+
+          <p class="text-sm">
+            Fokus apa yang dibutuhkan
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= KELAS ================= -->
+  <section id="kelas" class="py-20">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <!-- Header -->
+      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+
+        <h2 class="text-3xl font-bold">
+          Pembelajaran
+          <span class="border-b-4 border-yellow-400">
+            Populer
+          </span>
+        </h2>
+
+        <!-- Category -->
+        <div class="flex flex-wrap gap-3">
+
+          <a
+            href="#"
+            class="px-4 py-2 hover:bg-white hover:shadow-lg transition"
+          >
+            Javascript
+          </a>
+
+          <a
+            href="#"
+            class="px-4 py-2 hover:bg-white hover:shadow-lg transition"
+          >
+            Python
+          </a>
+
+          <a
+            href="#"
+            class="px-4 py-2 hover:bg-white hover:shadow-lg transition"
+          >
+            Web Development
+          </a>
+
+          <a
+            href="#"
+            class="px-4 py-2 hover:bg-white hover:shadow-lg transition"
+          >
+            Art & Design
+          </a>
+
+          <a
+            href="#"
+            class="px-4 py-2 hover:bg-white hover:shadow-lg transition"
+          >
+            Business
+          </a>
 
         </div>
-        <div class="w-[20rem] mt-16">
-          <h1 class="text-xl font-bold">Download Now</h1>
-          <div class="bg-white w-44 p-2 rounded mt-10">
-            <a href="#">
-              <img class="mx-auto" src="/assets/logo-appstore.png" alt="">
-            </a>
-          </div>
-          <div class="bg-white w-44 p-2 rounded mt-2">
-            <a href="#">
-              <img class="mx-auto" src="/assets/logo-googleplay.png" alt="">
-            </a>
-          </div>
-        </div>
+
       </div>
-      <div class="flex mt-5 justify-between">
-        <div>
-          <a class="m-5 " href="#">Site Map</a>
-          <a class="m-5 " href="#">Privacy Policy</a>
-          <a class="m-5 " href="#">Terms & Condition</a>
-          <a class="m-5 " href="#">Contact Us</a>
-          <a class="m-5 " href="#">Forums</a>
-        </div>
-        <div>
-          <p class="text-end">Liga SMK 2022</p>
-        </div>
+
+
+      <!-- Course Grid -->
+      <div
+        class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12"
+      >
+
+        <!-- COURSE 1 -->
+        <article class="bg-white border hover:shadow-lg transition">
+
+          <img
+            src="assets/course-1.png"
+            alt="Course"
+            class="w-full"
+          >
+
+          <div class="p-6">
+
+            <p class="font-bold text-violet-700 text-sm">
+              Rizky
+            </p>
+
+            <h3 class="font-bold mt-2">
+              Why Learn Intermediate SQL for Marketers?
+            </h3>
+
+            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+
+              <span class="flex items-center gap-1">
+                <img
+                  src="assets/icon-hamburger.svg"
+                  alt=""
+                  class="w-4"
+                >
+                Beginner
+              </span>
+
+              <span class="flex items-center gap-1">
+                <img
+                  src="assets/icon-copy.svg"
+                  alt=""
+                  class="w-4"
+                >
+                3 Lessons
+              </span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- COURSE 2 -->
+        <article class="bg-white border hover:shadow-lg transition">
+
+          <img
+            src="assets/course-2.png"
+            alt="Course"
+            class="w-full"
+          >
+
+          <div class="p-6">
+
+            <p class="font-bold text-violet-700 text-sm">
+              Rizky
+            </p>
+
+            <h3 class="font-bold mt-2">
+              Why Learn Intermediate SQL for Marketers?
+            </h3>
+
+            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
+                Beginner
+              </span>
+
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-copy.svg" alt="" class="w-4">
+                3 Lessons
+              </span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- COURSE 3 -->
+        <article class="bg-white border hover:shadow-lg transition">
+
+          <img
+            src="assets/course-3.png"
+            alt="Course"
+            class="w-full"
+          >
+
+          <div class="p-6">
+
+            <p class="font-bold text-violet-700 text-sm">
+              Rizky
+            </p>
+
+            <h3 class="font-bold mt-2">
+              Why Learn Intermediate SQL for Marketers?
+            </h3>
+
+            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
+                Beginner
+              </span>
+
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-copy.svg" alt="" class="w-4">
+                3 Lessons
+              </span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- COURSE 4 -->
+        <article class="bg-white border hover:shadow-lg transition">
+
+          <img
+            src="assets/course-4.png"
+            alt="Course"
+            class="w-full"
+          >
+
+          <div class="p-6">
+
+            <p class="font-bold text-violet-700 text-sm">
+              Rizky
+            </p>
+
+            <h3 class="font-bold mt-2">
+              Why Learn Intermediate SQL for Marketers?
+            </h3>
+
+            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
+                Beginner
+              </span>
+
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-copy.svg" alt="" class="w-4">
+                3 Lessons
+              </span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- COURSE 5 -->
+        <article class="bg-white border hover:shadow-lg transition">
+
+          <img src="assets/course-5.png" alt="Course" class="w-full">
+
+          <div class="p-6">
+
+            <p class="font-bold text-violet-700 text-sm">
+              Rizky
+            </p>
+
+            <h3 class="font-bold mt-2">
+              Why Learn Intermediate SQL for Marketers?
+            </h3>
+
+            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
+                Beginner
+              </span>
+
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-copy.svg" alt="" class="w-4">
+                3 Lessons
+              </span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- COURSE 6 -->
+        <article class="bg-white border hover:shadow-lg transition">
+
+          <img src="assets/course-6.png" alt="Course" class="w-full">
+
+          <div class="p-6">
+
+            <p class="font-bold text-violet-700 text-sm">
+              Rizky
+            </p>
+
+            <h3 class="font-bold mt-2">
+              Why Learn Intermediate SQL for Marketers?
+            </h3>
+
+            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
+                Beginner
+              </span>
+
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-copy.svg" alt="" class="w-4">
+                3 Lessons
+              </span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- COURSE 7 -->
+        <article class="bg-white border hover:shadow-lg transition">
+
+          <img src="assets/course-7.png" alt="Course" class="w-full">
+
+          <div class="p-6">
+
+            <p class="font-bold text-violet-700 text-sm">
+              Rizky
+            </p>
+
+            <h3 class="font-bold mt-2">
+              Why Learn Intermediate SQL for Marketers?
+            </h3>
+
+            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
+                Beginner
+              </span>
+
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-copy.svg" alt="" class="w-4">
+                3 Lessons
+              </span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- COURSE 8 -->
+        <article class="bg-white border hover:shadow-lg transition">
+
+          <img src="assets/course-8.png" alt="Course" class="w-full">
+
+          <div class="p-6">
+
+            <p class="font-bold text-violet-700 text-sm">
+              Rizky
+            </p>
+
+            <h3 class="font-bold mt-2">
+              Why Learn Intermediate SQL for Marketers?
+            </h3>
+
+            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
+                Beginner
+              </span>
+
+              <span class="flex items-center gap-1">
+                <img src="assets/icon-copy.svg" alt="" class="w-4">
+                3 Lessons
+              </span>
+            </div>
+
+          </div>
+
+        </article>
+
       </div>
+
     </div>
+
+  </section>
+
+
+  <!-- ================= MEMBERSHIP ================= -->
+  <section class="bg-orange-100">
+
+    <div
+      class="max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-3 gap-10 items-center"
+    >
+
+      <img
+        src="assets/membership-image.png"
+        alt="Membership"
+        class="mx-auto"
+      >
+
+      <h2 class="text-3xl font-bold">
+        Dapatkan membership pro GRATIS untuk kelas kamu.
+      </h2>
+
+      <a
+        href="#kelas"
+        class="bg-indigo-800 hover:bg-indigo-900 text-white px-6 py-3 text-center transition"
+      >
+        Lihat Semua Kelas
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= KATEGORI ================= -->
+  <section id="kategori" class="py-20">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <h2 class="text-center text-3xl font-bold">
+        Kategori
+        <span class="border-b-4 border-yellow-400">
+          Populer
+        </span>
+      </h2>
+
+
+      <div
+        class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-16"
+      >
+
+        <!-- CATEGORY -->
+        <div class="bg-white border p-4 flex items-center gap-4">
+
+          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
+            <img src="assets/icon-chemical.svg" alt="" class="w-8">
+          </div>
+
+          <div>
+            <h3 class="font-bold text-xl">
+              Kimia
+            </h3>
+
+            <p class="font-bold text-gray-500 text-sm">
+              2 Kelas
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="bg-white border p-4 flex items-center gap-4">
+
+          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
+            <img src="assets/icon-calendar.svg" alt="" class="w-8">
+          </div>
+
+          <div>
+            <h3 class="font-bold text-xl">
+              Manajemen
+            </h3>
+
+            <p class="font-bold text-gray-500 text-sm">
+              2 Kelas
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="bg-white border p-4 flex items-center gap-4">
+
+          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
+            <img src="assets/icon-pencil-ruler.svg" alt="" class="w-8">
+          </div>
+
+          <div>
+            <h3 class="font-bold text-xl">
+              Seni Budaya
+            </h3>
+
+            <p class="font-bold text-gray-500 text-sm">
+              2 Kelas
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="bg-white border p-4 flex items-center gap-4">
+
+          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
+            <img src="assets/icon-briefcase.svg" alt="" class="w-8">
+          </div>
+
+          <div>
+            <h3 class="font-bold text-xl">
+              Bisnis
+            </h3>
+
+            <p class="font-bold text-gray-500 text-sm">
+              2 Kelas
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="bg-white border p-4 flex items-center gap-4">
+
+          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
+            <img src="assets/icon-science.svg" alt="" class="w-8">
+          </div>
+
+          <div>
+            <h3 class="font-bold text-xl">
+              Astrologi
+            </h3>
+
+            <p class="font-bold text-gray-500 text-sm">
+              2 Kelas
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="bg-white border p-4 flex items-center gap-4">
+
+          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
+            <img src="assets/icon-rocket.png" alt="" class="w-8">
+          </div>
+
+          <div>
+            <h3 class="font-bold text-xl">
+              SEO
+            </h3>
+
+            <p class="font-bold text-gray-500 text-sm">
+              2 Kelas
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="bg-white border p-4 flex items-center gap-4">
+
+          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
+            <img src="assets/icon-space.svg" alt="" class="w-8">
+          </div>
+
+          <div>
+            <h3 class="font-bold text-xl">
+              Kosmologi
+            </h3>
+
+            <p class="font-bold text-gray-500 text-sm">
+              2 Kelas
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="bg-white border p-4 flex items-center gap-4">
+
+          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
+            <img src="assets/icon-microscope.svg" alt="" class="w-8">
+          </div>
+
+          <div>
+            <h3 class="font-bold text-xl">
+              Biologi
+            </h3>
+
+            <p class="font-bold text-gray-500 text-sm">
+              2 Kelas
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Explore -->
+      <div class="text-center mt-10">
+
+        <a
+          href="#kelas"
+          class="text-violet-700 font-bold hover:underline"
+        >
+          Explore All Courses
+          <img
+            src="assets/icon-double-next.svg"
+            alt=""
+            class="inline w-5"
+          >
+        </a>
+
+      </div>
+
+
+      <!-- Business -->
+      <div
+        class="bg-blue-200 mt-20 p-8 lg:p-12 grid lg:grid-cols-2 gap-10 items-center"
+      >
+
+        <img
+          src="assets/business-image.png"
+          alt="Business"
+          class="mx-auto"
+        >
+
+        <div>
+
+          <h2 class="text-4xl font-bold">
+            Tingkatkan skill tim Anda
+          </h2>
+
+          <p class="mt-8 leading-relaxed">
+            Berikan tim Anda pengetahuan, pengalaman, dan keyakinan
+            yang mereka butuhkan untuk mengatasi setiap masalah.
+            Kami ingin menciptakan dunia dimana siapa pun dapat
+            membangun sesuatu yang bermakna.
+          </p>
+
+          <a
+            href="#"
+            class="inline-block bg-indigo-700 hover:bg-indigo-900 text-white px-6 py-3 mt-8 transition"
+          >
+            Try For Business
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= EVENT ================= -->
+  <section id="event" class="py-20">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <h2 class="text-center text-3xl font-bold">
+        Event
+        <span class="border-b-4 border-yellow-400">
+          sedang berlangsung
+        </span>
+        di dekatmu
+      </h2>
+
+
+      <div
+        class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12"
+      >
+
+        <!-- EVENT -->
+        <article>
+
+          <img
+            src="assets/event-1.png"
+            alt="Event"
+            class="w-full"
+          >
+
+          <div class="flex items-center mt-6">
+
+            <div class="border-r-2 border-gray-400 pr-4 mr-4">
+
+              <p class="text-3xl font-bold text-violet-700">
+                21
+              </p>
+
+              <p class="font-bold text-gray-500">
+                March
+              </p>
+
+            </div>
+
+            <div class="flex items-center gap-2">
+
+              <img
+                src="assets/icon-location.svg"
+                alt=""
+                class="w-5"
+              >
+
+              <p>
+                North Caroline United States
+              </p>
+
+            </div>
+
+          </div>
+
+          <h3 class="text-xl font-bold mt-5">
+            Linear Regression in Python:
+            Introduction to Simple Linear
+          </h3>
+
+        </article>
+
+
+        <article>
+
+          <img
+            src="assets/event-2.png"
+            alt="Event"
+            class="w-full"
+          >
+
+          <div class="flex items-center mt-6">
+
+            <div class="border-r-2 border-gray-400 pr-4 mr-4">
+
+              <p class="text-3xl font-bold text-violet-700">
+                21
+              </p>
+
+              <p class="font-bold text-gray-500">
+                March
+              </p>
+
+            </div>
+
+            <div class="flex items-center gap-2">
+
+              <img
+                src="assets/icon-location.svg"
+                alt=""
+                class="w-5"
+              >
+
+              <p>
+                North Caroline United States
+              </p>
+
+            </div>
+
+          </div>
+
+          <h3 class="text-xl font-bold mt-5">
+            Linear Regression in Python:
+            Introduction to Simple Linear
+          </h3>
+
+        </article>
+
+
+        <article>
+
+          <img
+            src="assets/event-3.png"
+            alt="Event"
+            class="w-full"
+          >
+
+          <div class="flex items-center mt-6">
+
+            <div class="border-r-2 border-gray-400 pr-4 mr-4">
+
+              <p class="text-3xl font-bold text-violet-700">
+                21
+              </p>
+
+              <p class="font-bold text-gray-500">
+                March
+              </p>
+
+            </div>
+
+            <div class="flex items-center gap-2">
+
+              <img
+                src="assets/icon-location.svg"
+                alt=""
+                class="w-5"
+              >
+
+              <p>
+                North Caroline United States
+              </p>
+
+            </div>
+
+          </div>
+
+          <h3 class="text-xl font-bold mt-5">
+            Linear Regression in Python:
+            Introduction to Simple Linear
+          </h3>
+
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer
+    id="contact"
+    class="bg-gray-950 text-white"
+  >
+
+    <div class="max-w-7xl mx-auto px-6 py-16">
+
+      <div
+        class="grid sm:grid-cols-2 lg:grid-cols-4 gap-12 border-b border-gray-700 pb-16"
+      >
+
+        <!-- About -->
+        <div>
+
+          <img
+            src="assets/logo-ligasmk-white.png"
+            alt="Liga SMK"
+            class="h-10"
+          >
+
+          <p class="mt-8 text-gray-400 leading-relaxed">
+            Mengubah kehidupan, bisnis, dan bangsa melalui transformasi
+            talenta di bidang teknologi digital.
+          </p>
+
+          <div class="flex gap-3 mt-8">
+
+            <a href="#" aria-label="Facebook">
+              <img
+                src="assets/icon-facebook-white.svg"
+                alt=""
+                class="w-6"
+              >
+            </a>
+
+            <a href="#" aria-label="Twitter">
+              <img
+                src="assets/icon-twitter-white.svg"
+                alt=""
+                class="w-6"
+              >
+            </a>
+
+            <a href="#" aria-label="LinkedIn">
+              <img
+                src="assets/icon-linkedin-white.svg"
+                alt=""
+                class="w-6"
+              >
+            </a>
+
+            <a href="#" aria-label="YouTube">
+              <img
+                src="assets/icon-youtube-white.svg"
+                alt=""
+                class="w-6"
+              >
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- Resources -->
+        <div>
+
+          <h3 class="text-xl font-bold">
+            Resources
+          </h3>
+
+          <ul class="mt-8 space-y-4 text-gray-400">
+
+            <li>
+              <a href="#" class="hover:text-white transition">
+                Build Career
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-white transition">
+                Explore Subjects
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-white transition">
+                Gain a Skill
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <!-- Support -->
+        <div>
+
+          <h3 class="text-xl font-bold">
+            Support
+          </h3>
+
+          <ul class="mt-8 space-y-4 text-gray-400">
+
+            <li>
+              <a href="#" class="hover:text-white transition">
+                Web Development
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-white transition">
+                Data Science
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-white transition">
+                Machine Learning
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-white transition">
+                Developer
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-white transition">
+                Web Design
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <!-- Download -->
+        <div>
+
+          <h3 class="text-xl font-bold">
+            Download Now
+          </h3>
+
+          <a
+            href="#"
+            class="block bg-white w-44 p-2 rounded mt-8"
+          >
+            <img
+              src="assets/logo-appstore.png"
+              alt="Download on App Store"
+              class="mx-auto"
+            >
+          </a>
+
+          <a
+            href="#"
+            class="block bg-white w-44 p-2 rounded mt-3"
+          >
+            <img
+              src="assets/logo-googleplay.png"
+              alt="Get it on Google Play"
+              class="mx-auto"
+            >
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- Bottom -->
+      <div
+        class="flex flex-col md:flex-row justify-between gap-6 pt-6 text-sm text-gray-400"
+      >
+
+        <div class="flex flex-wrap gap-6">
+
+          <a href="#" class="hover:text-white">
+            Site Map
+          </a>
+
+          <a href="#" class="hover:text-white">
+            Privacy Policy
+          </a>
+
+          <a href="#" class="hover:text-white">
+            Terms & Condition
+          </a>
+
+          <a href="#" class="hover:text-white">
+            Contact Us
+          </a>
+
+          <a href="#" class="hover:text-white">
+            Forums
+          </a>
+
+        </div>
+
+        <p>
+          Liga SMK 2022
+        </p>
+
+      </div>
+
+    </div>
+
   </footer>
+
 </body>
 
 </html>
+```
