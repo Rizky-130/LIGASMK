@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="id" class="scroll-smooth">
 
@@ -6,52 +5,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Rizky - SMK Bina Putra Mandiri</title>
+
+  <!-- ================= TAILWIND ================= -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <title>Rizky - SMK Bina Putra Mandiri</title>
+  <!-- ================= AOS CSS ================= -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+  >
 </head>
+
 
 <body class="bg-gray-100 text-gray-900">
 
-  <!-- ================= NAVBAR ================= -->
-  <header class="sticky top-0 z-50 bg-white shadow-sm">
-    <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+  <!-- =====================================================
+       NAVBAR
+  ====================================================== -->
 
-      <!-- Logo -->
+  <header class="sticky top-0 z-50 bg-white shadow-sm">
+
+    <nav
+      class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
+    >
+
+      <!-- LOGO -->
       <a href="#" class="shrink-0">
+
         <img
           src="assets/logo-ligasmk-dark.png"
           alt="Liga SMK"
           class="h-10"
         >
+
       </a>
 
-      <!-- Desktop Menu -->
+
+      <!-- DESKTOP MENU -->
       <div class="hidden lg:flex items-center gap-8">
 
-        <a href="#home" class="font-medium text-violet-700">
+        <a
+          href="#home"
+          class="font-medium text-violet-700"
+        >
           Home
         </a>
 
-        <a href="#info" class="font-medium hover:text-violet-700 transition">
+        <a
+          href="#info"
+          class="font-medium hover:text-violet-700 transition"
+        >
           About Us
         </a>
 
-        <a href="#kelas" class="font-medium hover:text-violet-700 transition">
+        <a
+          href="#kelas"
+          class="font-medium hover:text-violet-700 transition"
+        >
           Kelas
         </a>
 
-        <a href="#event" class="font-medium hover:text-violet-700 transition">
+        <a
+          href="#event"
+          class="font-medium hover:text-violet-700 transition"
+        >
           Blog
         </a>
 
-        <a href="#contact" class="font-medium hover:text-violet-700 transition">
+        <a
+          href="#contact"
+          class="font-medium hover:text-violet-700 transition"
+        >
           Contact
         </a>
 
       </div>
 
-      <!-- Mobile Menu Button -->
+
+      <!-- MOBILE BUTTON -->
       <button
         class="lg:hidden text-2xl"
         aria-label="Open menu"
@@ -60,10 +92,15 @@
       </button>
 
     </nav>
+
   </header>
 
 
-  <!-- ================= HERO ================= -->
+
+  <!-- =====================================================
+       HERO
+  ====================================================== -->
+
   <section
     id="home"
     class="min-h-screen bg-blue-200 flex items-center"
@@ -73,12 +110,16 @@
       class="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center w-full"
     >
 
-      <!-- Text -->
-      <div>
+      <!-- HERO TEXT -->
 
-        <p class="text-violet-700 font-semibold mb-4">
+      <div data-aos="fade-right">
+
+        <p
+          class="text-violet-700 font-semibold mb-4"
+        >
           BELAJAR & BERKEMBANG
         </p>
+
 
         <h1
           class="text-4xl sm:text-5xl lg:text-7xl font-semibold leading-tight"
@@ -86,32 +127,48 @@
           Bergabunglah dengan jutaan orang dan belajar hal baru
         </h1>
 
-        <p class="text-gray-600 text-lg mt-6 max-w-xl">
+
+        <p
+          class="text-gray-600 text-lg mt-6 max-w-xl"
+        >
           Mengubah kehidupan, bisnis dan bangsa melalui transformasi
           talenta di bidang teknologi digital.
         </p>
+
 
         <a
           href="#kelas"
           class="inline-flex items-center gap-4 mt-8 bg-indigo-700 hover:bg-violet-800 text-white px-6 py-3 rounded transition duration-200"
         >
+
           Mulai Belajar
+
           <img
             src="assets/icon-arrowlong-right.svg"
             alt=""
             class="w-5"
           >
+
         </a>
 
       </div>
 
-      <!-- Illustration -->
-      <div class="flex justify-center">
+
+
+      <!-- HERO IMAGE -->
+
+      <div
+        data-aos="fade-left"
+        data-aos-delay="200"
+        class="flex justify-center"
+      >
+
         <img
           src="assets/shape-diagram.png"
           alt="Ilustrasi pembelajaran"
           class="max-w-full"
         >
+
       </div>
 
     </div>
@@ -119,18 +176,23 @@
   </section>
 
 
-  <!-- ================= INFO ================= -->
-  <section
-    id="info"
-    class="bg-yellow-500"
-  >
+
+  <!-- =====================================================
+       INFO
+  ====================================================== -->
+
+  <section id="info" class="bg-yellow-500">
 
     <div
       class="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8"
     >
 
-      <!-- Item -->
-      <div class="flex items-center gap-5">
+      <!-- ITEM -->
+
+      <div
+        data-aos="fade-up"
+        class="flex items-center gap-5"
+      >
 
         <img
           src="assets/icon-online-education.svg"
@@ -139,6 +201,7 @@
         >
 
         <div>
+
           <h2 class="font-bold">
             Membangun Karir
           </h2>
@@ -146,13 +209,20 @@
           <p class="text-sm">
             Semua yang butuh kerja
           </p>
+
         </div>
 
       </div>
 
 
-      <!-- Item -->
-      <div class="flex items-center gap-5">
+
+      <!-- ITEM -->
+
+      <div
+        data-aos="fade-up"
+        data-aos-delay="150"
+        class="flex items-center gap-5"
+      >
 
         <img
           src="assets/icon-globe-handphone.svg"
@@ -161,6 +231,7 @@
         >
 
         <div>
+
           <h2 class="font-bold">
             Cari Materi Belajar
           </h2>
@@ -168,13 +239,20 @@
           <p class="text-sm">
             Seberapa pengetahuan kamu
           </p>
+
         </div>
 
       </div>
 
 
-      <!-- Item -->
-      <div class="flex items-center gap-5">
+
+      <!-- ITEM -->
+
+      <div
+        data-aos="fade-up"
+        data-aos-delay="300"
+        class="flex items-center gap-5"
+      >
 
         <img
           src="assets/icon-online-education-laptop.svg"
@@ -183,6 +261,7 @@
         >
 
         <div>
+
           <h2 class="font-bold">
             Kuasai Skill Baru
           </h2>
@@ -190,6 +269,7 @@
           <p class="text-sm">
             Fokus apa yang dibutuhkan
           </p>
+
         </div>
 
       </div>
@@ -199,22 +279,37 @@
   </section>
 
 
-  <!-- ================= KELAS ================= -->
+
+  <!-- =====================================================
+       KELAS
+  ====================================================== -->
+
   <section id="kelas" class="py-20">
 
     <div class="max-w-7xl mx-auto px-6">
 
-      <!-- Header -->
-      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+
+      <!-- HEADER -->
+
+      <div
+        data-aos="fade-up"
+        class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8"
+      >
 
         <h2 class="text-3xl font-bold">
+
           Pembelajaran
+
           <span class="border-b-4 border-yellow-400">
             Populer
           </span>
+
         </h2>
 
-        <!-- Category -->
+
+
+        <!-- CATEGORY -->
+
         <div class="flex flex-wrap gap-3">
 
           <a
@@ -257,13 +352,22 @@
       </div>
 
 
-      <!-- Course Grid -->
+
+      <!-- COURSE GRID -->
+
       <div
         class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12"
       >
 
+
         <!-- COURSE 1 -->
-        <article class="bg-white border hover:shadow-lg transition">
+
+        <article
+          data-aos="fade-up"
+          data-aos-delay="0"
+          data-tilt
+          class="bg-white border rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+        >
 
           <img
             src="assets/course-1.png"
@@ -281,24 +385,33 @@
               Why Learn Intermediate SQL for Marketers?
             </h3>
 
-            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+            <div
+              class="flex flex-wrap gap-3 mt-4 text-sm"
+            >
 
               <span class="flex items-center gap-1">
+
                 <img
                   src="assets/icon-hamburger.svg"
                   alt=""
                   class="w-4"
                 >
+
                 Beginner
+
               </span>
 
+
               <span class="flex items-center gap-1">
+
                 <img
                   src="assets/icon-copy.svg"
                   alt=""
                   class="w-4"
                 >
+
                 3 Lessons
+
               </span>
 
             </div>
@@ -308,8 +421,15 @@
         </article>
 
 
+
         <!-- COURSE 2 -->
-        <article class="bg-white border hover:shadow-lg transition">
+
+        <article
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-tilt
+          class="bg-white border rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+        >
 
           <img
             src="assets/course-2.png"
@@ -327,16 +447,33 @@
               Why Learn Intermediate SQL for Marketers?
             </h3>
 
-            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+            <div
+              class="flex flex-wrap gap-3 mt-4 text-sm"
+            >
 
               <span class="flex items-center gap-1">
-                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
+
+                <img
+                  src="assets/icon-hamburger.svg"
+                  alt=""
+                  class="w-4"
+                >
+
                 Beginner
+
               </span>
 
+
               <span class="flex items-center gap-1">
-                <img src="assets/icon-copy.svg" alt="" class="w-4">
+
+                <img
+                  src="assets/icon-copy.svg"
+                  alt=""
+                  class="w-4"
+                >
+
                 3 Lessons
+
               </span>
 
             </div>
@@ -346,8 +483,15 @@
         </article>
 
 
+
         <!-- COURSE 3 -->
-        <article class="bg-white border hover:shadow-lg transition">
+
+        <article
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-tilt
+          class="bg-white border rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+        >
 
           <img
             src="assets/course-3.png"
@@ -365,16 +509,33 @@
               Why Learn Intermediate SQL for Marketers?
             </h3>
 
-            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+            <div
+              class="flex flex-wrap gap-3 mt-4 text-sm"
+            >
 
               <span class="flex items-center gap-1">
-                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
+
+                <img
+                  src="assets/icon-hamburger.svg"
+                  alt=""
+                  class="w-4"
+                >
+
                 Beginner
+
               </span>
 
+
               <span class="flex items-center gap-1">
-                <img src="assets/icon-copy.svg" alt="" class="w-4">
+
+                <img
+                  src="assets/icon-copy.svg"
+                  alt=""
+                  class="w-4"
+                >
+
                 3 Lessons
+
               </span>
 
             </div>
@@ -384,8 +545,15 @@
         </article>
 
 
+
         <!-- COURSE 4 -->
-        <article class="bg-white border hover:shadow-lg transition">
+
+        <article
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-tilt
+          class="bg-white border rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+        >
 
           <img
             src="assets/course-4.png"
@@ -403,16 +571,33 @@
               Why Learn Intermediate SQL for Marketers?
             </h3>
 
-            <div class="flex flex-wrap gap-3 mt-4 text-sm">
+            <div
+              class="flex flex-wrap gap-3 mt-4 text-sm"
+            >
 
               <span class="flex items-center gap-1">
-                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
+
+                <img
+                  src="assets/icon-hamburger.svg"
+                  alt=""
+                  class="w-4"
+                >
+
                 Beginner
+
               </span>
 
+
               <span class="flex items-center gap-1">
-                <img src="assets/icon-copy.svg" alt="" class="w-4">
+
+                <img
+                  src="assets/icon-copy.svg"
+                  alt=""
+                  class="w-4"
+                >
+
                 3 Lessons
+
               </span>
 
             </div>
@@ -420,12 +605,23 @@
           </div>
 
         </article>
+
 
 
         <!-- COURSE 5 -->
-        <article class="bg-white border hover:shadow-lg transition">
 
-          <img src="assets/course-5.png" alt="Course" class="w-full">
+        <article
+          data-aos="fade-up"
+          data-aos-delay="0"
+          data-tilt
+          class="bg-white border rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+        >
+
+          <img
+            src="assets/course-5.png"
+            alt="Course"
+            class="w-full"
+          >
 
           <div class="p-6">
 
@@ -437,27 +633,57 @@
               Why Learn Intermediate SQL for Marketers?
             </h3>
 
-            <div class="flex flex-wrap gap-3 mt-4 text-sm">
-              <span class="flex items-center gap-1">
-                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
-                Beginner
-              </span>
+            <div
+              class="flex flex-wrap gap-3 mt-4 text-sm"
+            >
 
               <span class="flex items-center gap-1">
-                <img src="assets/icon-copy.svg" alt="" class="w-4">
-                3 Lessons
+
+                <img
+                  src="assets/icon-hamburger.svg"
+                  alt=""
+                  class="w-4"
+                >
+
+                Beginner
+
               </span>
+
+
+              <span class="flex items-center gap-1">
+
+                <img
+                  src="assets/icon-copy.svg"
+                  alt=""
+                  class="w-4"
+                >
+
+                3 Lessons
+
+              </span>
+
             </div>
 
           </div>
 
         </article>
+
 
 
         <!-- COURSE 6 -->
-        <article class="bg-white border hover:shadow-lg transition">
 
-          <img src="assets/course-6.png" alt="Course" class="w-full">
+        <article
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-tilt
+          class="bg-white border rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+        >
+
+          <img
+            src="assets/course-6.png"
+            alt="Course"
+            class="w-full"
+          >
 
           <div class="p-6">
 
@@ -469,27 +695,57 @@
               Why Learn Intermediate SQL for Marketers?
             </h3>
 
-            <div class="flex flex-wrap gap-3 mt-4 text-sm">
-              <span class="flex items-center gap-1">
-                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
-                Beginner
-              </span>
+            <div
+              class="flex flex-wrap gap-3 mt-4 text-sm"
+            >
 
               <span class="flex items-center gap-1">
-                <img src="assets/icon-copy.svg" alt="" class="w-4">
-                3 Lessons
+
+                <img
+                  src="assets/icon-hamburger.svg"
+                  alt=""
+                  class="w-4"
+                >
+
+                Beginner
+
               </span>
+
+
+              <span class="flex items-center gap-1">
+
+                <img
+                  src="assets/icon-copy.svg"
+                  alt=""
+                  class="w-4"
+                >
+
+                3 Lessons
+
+              </span>
+
             </div>
 
           </div>
 
         </article>
+
 
 
         <!-- COURSE 7 -->
-        <article class="bg-white border hover:shadow-lg transition">
 
-          <img src="assets/course-7.png" alt="Course" class="w-full">
+        <article
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-tilt
+          class="bg-white border rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+        >
+
+          <img
+            src="assets/course-7.png"
+            alt="Course"
+            class="w-full"
+          >
 
           <div class="p-6">
 
@@ -501,16 +757,35 @@
               Why Learn Intermediate SQL for Marketers?
             </h3>
 
-            <div class="flex flex-wrap gap-3 mt-4 text-sm">
-              <span class="flex items-center gap-1">
-                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
-                Beginner
-              </span>
+            <div
+              class="flex flex-wrap gap-3 mt-4 text-sm"
+            >
 
               <span class="flex items-center gap-1">
-                <img src="assets/icon-copy.svg" alt="" class="w-4">
-                3 Lessons
+
+                <img
+                  src="assets/icon-hamburger.svg"
+                  alt=""
+                  class="w-4"
+                >
+
+                Beginner
+
               </span>
+
+
+              <span class="flex items-center gap-1">
+
+                <img
+                  src="assets/icon-copy.svg"
+                  alt=""
+                  class="w-4"
+                >
+
+                3 Lessons
+
+              </span>
+
             </div>
 
           </div>
@@ -518,10 +793,21 @@
         </article>
 
 
-        <!-- COURSE 8 -->
-        <article class="bg-white border hover:shadow-lg transition">
 
-          <img src="assets/course-8.png" alt="Course" class="w-full">
+        <!-- COURSE 8 -->
+
+        <article
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-tilt
+          class="bg-white border rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+        >
+
+          <img
+            src="assets/course-8.png"
+            alt="Course"
+            class="w-full"
+          >
 
           <div class="p-6">
 
@@ -533,16 +819,35 @@
               Why Learn Intermediate SQL for Marketers?
             </h3>
 
-            <div class="flex flex-wrap gap-3 mt-4 text-sm">
-              <span class="flex items-center gap-1">
-                <img src="assets/icon-hamburger.svg" alt="" class="w-4">
-                Beginner
-              </span>
+            <div
+              class="flex flex-wrap gap-3 mt-4 text-sm"
+            >
 
               <span class="flex items-center gap-1">
-                <img src="assets/icon-copy.svg" alt="" class="w-4">
-                3 Lessons
+
+                <img
+                  src="assets/icon-hamburger.svg"
+                  alt=""
+                  class="w-4"
+                >
+
+                Beginner
+
               </span>
+
+
+              <span class="flex items-center gap-1">
+
+                <img
+                  src="assets/icon-copy.svg"
+                  alt=""
+                  class="w-4"
+                >
+
+                3 Lessons
+
+              </span>
+
             </div>
 
           </div>
@@ -556,7 +861,11 @@
   </section>
 
 
-  <!-- ================= MEMBERSHIP ================= -->
+
+  <!-- =====================================================
+       MEMBERSHIP
+  ====================================================== -->
+
   <section class="bg-orange-100">
 
     <div
@@ -564,16 +873,23 @@
     >
 
       <img
+        data-aos="fade-right"
         src="assets/membership-image.png"
         alt="Membership"
         class="mx-auto"
       >
 
-      <h2 class="text-3xl font-bold">
+
+      <h2
+        data-aos="fade-up"
+        class="text-3xl font-bold"
+      >
         Dapatkan membership pro GRATIS untuk kelas kamu.
       </h2>
 
+
       <a
+        data-aos="fade-left"
         href="#kelas"
         class="bg-indigo-800 hover:bg-indigo-900 text-white px-6 py-3 text-center transition"
       >
@@ -585,31 +901,62 @@
   </section>
 
 
-  <!-- ================= KATEGORI ================= -->
+
+  <!-- =====================================================
+       KATEGORI
+  ====================================================== -->
+
   <section id="kategori" class="py-20">
 
     <div class="max-w-7xl mx-auto px-6">
 
-      <h2 class="text-center text-3xl font-bold">
+
+      <h2
+        data-aos="fade-up"
+        class="text-center text-3xl font-bold"
+      >
+
         Kategori
+
         <span class="border-b-4 border-yellow-400">
           Populer
         </span>
+
       </h2>
 
+
+
+      <!-- CATEGORY GRID -->
 
       <div
         class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-16"
       >
 
-        <!-- CATEGORY -->
-        <div class="bg-white border p-4 flex items-center gap-4">
 
-          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
-            <img src="assets/icon-chemical.svg" alt="" class="w-8">
+        <!-- CATEGORY 1 -->
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="0"
+          data-tilt
+          class="bg-white border p-4 flex items-center gap-4 rounded-lg"
+        >
+
+          <div
+            class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0"
+          >
+
+            <img
+              src="assets/icon-chemical.svg"
+              alt=""
+              class="w-8"
+            >
+
           </div>
 
+
           <div>
+
             <h3 class="font-bold text-xl">
               Kimia
             </h3>
@@ -617,18 +964,37 @@
             <p class="font-bold text-gray-500 text-sm">
               2 Kelas
             </p>
+
           </div>
 
         </div>
 
 
-        <div class="bg-white border p-4 flex items-center gap-4">
 
-          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
-            <img src="assets/icon-calendar.svg" alt="" class="w-8">
+        <!-- CATEGORY 2 -->
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="100"
+          data-tilt
+          class="bg-white border p-4 flex items-center gap-4 rounded-lg"
+        >
+
+          <div
+            class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0"
+          >
+
+            <img
+              src="assets/icon-calendar.svg"
+              alt=""
+              class="w-8"
+            >
+
           </div>
 
+
           <div>
+
             <h3 class="font-bold text-xl">
               Manajemen
             </h3>
@@ -636,18 +1002,37 @@
             <p class="font-bold text-gray-500 text-sm">
               2 Kelas
             </p>
+
           </div>
 
         </div>
 
 
-        <div class="bg-white border p-4 flex items-center gap-4">
 
-          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
-            <img src="assets/icon-pencil-ruler.svg" alt="" class="w-8">
+        <!-- CATEGORY 3 -->
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="200"
+          data-tilt
+          class="bg-white border p-4 flex items-center gap-4 rounded-lg"
+        >
+
+          <div
+            class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0"
+          >
+
+            <img
+              src="assets/icon-pencil-ruler.svg"
+              alt=""
+              class="w-8"
+            >
+
           </div>
 
+
           <div>
+
             <h3 class="font-bold text-xl">
               Seni Budaya
             </h3>
@@ -655,18 +1040,37 @@
             <p class="font-bold text-gray-500 text-sm">
               2 Kelas
             </p>
+
           </div>
 
         </div>
 
 
-        <div class="bg-white border p-4 flex items-center gap-4">
 
-          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
-            <img src="assets/icon-briefcase.svg" alt="" class="w-8">
+        <!-- CATEGORY 4 -->
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          data-tilt
+          class="bg-white border p-4 flex items-center gap-4 rounded-lg"
+        >
+
+          <div
+            class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0"
+          >
+
+            <img
+              src="assets/icon-briefcase.svg"
+              alt=""
+              class="w-8"
+            >
+
           </div>
 
+
           <div>
+
             <h3 class="font-bold text-xl">
               Bisnis
             </h3>
@@ -674,18 +1078,37 @@
             <p class="font-bold text-gray-500 text-sm">
               2 Kelas
             </p>
+
           </div>
 
         </div>
 
 
-        <div class="bg-white border p-4 flex items-center gap-4">
 
-          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
-            <img src="assets/icon-science.svg" alt="" class="w-8">
+        <!-- CATEGORY 5 -->
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="0"
+          data-tilt
+          class="bg-white border p-4 flex items-center gap-4 rounded-lg"
+        >
+
+          <div
+            class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0"
+          >
+
+            <img
+              src="assets/icon-science.svg"
+              alt=""
+              class="w-8"
+            >
+
           </div>
 
+
           <div>
+
             <h3 class="font-bold text-xl">
               Astrologi
             </h3>
@@ -693,18 +1116,37 @@
             <p class="font-bold text-gray-500 text-sm">
               2 Kelas
             </p>
+
           </div>
 
         </div>
 
 
-        <div class="bg-white border p-4 flex items-center gap-4">
 
-          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
-            <img src="assets/icon-rocket.png" alt="" class="w-8">
+        <!-- CATEGORY 6 -->
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="100"
+          data-tilt
+          class="bg-white border p-4 flex items-center gap-4 rounded-lg"
+        >
+
+          <div
+            class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0"
+          >
+
+            <img
+              src="assets/icon-rocket.png"
+              alt=""
+              class="w-8"
+            >
+
           </div>
 
+
           <div>
+
             <h3 class="font-bold text-xl">
               SEO
             </h3>
@@ -712,18 +1154,37 @@
             <p class="font-bold text-gray-500 text-sm">
               2 Kelas
             </p>
+
           </div>
 
         </div>
 
 
-        <div class="bg-white border p-4 flex items-center gap-4">
 
-          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
-            <img src="assets/icon-space.svg" alt="" class="w-8">
+        <!-- CATEGORY 7 -->
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="200"
+          data-tilt
+          class="bg-white border p-4 flex items-center gap-4 rounded-lg"
+        >
+
+          <div
+            class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0"
+          >
+
+            <img
+              src="assets/icon-space.svg"
+              alt=""
+              class="w-8"
+            >
+
           </div>
 
+
           <div>
+
             <h3 class="font-bold text-xl">
               Kosmologi
             </h3>
@@ -731,18 +1192,37 @@
             <p class="font-bold text-gray-500 text-sm">
               2 Kelas
             </p>
+
           </div>
 
         </div>
 
 
-        <div class="bg-white border p-4 flex items-center gap-4">
 
-          <div class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0">
-            <img src="assets/icon-microscope.svg" alt="" class="w-8">
+        <!-- CATEGORY 8 -->
+
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          data-tilt
+          class="bg-white border p-4 flex items-center gap-4 rounded-lg"
+        >
+
+          <div
+            class="bg-blue-200 rounded-full w-16 h-16 flex items-center justify-center shrink-0"
+          >
+
+            <img
+              src="assets/icon-microscope.svg"
+              alt=""
+              class="w-8"
+            >
+
           </div>
 
+
           <div>
+
             <h3 class="font-bold text-xl">
               Biologi
             </h3>
@@ -750,6 +1230,7 @@
             <p class="font-bold text-gray-500 text-sm">
               2 Kelas
             </p>
+
           </div>
 
         </div>
@@ -757,47 +1238,64 @@
       </div>
 
 
-      <!-- Explore -->
-      <div class="text-center mt-10">
+
+      <!-- EXPLORE -->
+
+      <div
+        data-aos="fade-up"
+        class="text-center mt-10"
+      >
 
         <a
           href="#kelas"
           class="text-violet-700 font-bold hover:underline"
         >
+
           Explore All Courses
+
           <img
             src="assets/icon-double-next.svg"
             alt=""
             class="inline w-5"
           >
+
         </a>
 
       </div>
 
 
-      <!-- Business -->
+
+      <!-- BUSINESS -->
+
       <div
+        data-aos="fade-up"
         class="bg-blue-200 mt-20 p-8 lg:p-12 grid lg:grid-cols-2 gap-10 items-center"
       >
 
         <img
+          data-aos="fade-right"
           src="assets/business-image.png"
           alt="Business"
           class="mx-auto"
         >
 
-        <div>
+
+        <div data-aos="fade-left">
 
           <h2 class="text-4xl font-bold">
             Tingkatkan skill tim Anda
           </h2>
 
+
           <p class="mt-8 leading-relaxed">
+
             Berikan tim Anda pengetahuan, pengalaman, dan keyakinan
             yang mereka butuhkan untuk mengatasi setiap masalah.
             Kami ingin menciptakan dunia dimana siapa pun dapat
             membangun sesuatu yang bermakna.
+
           </p>
+
 
           <a
             href="#"
@@ -815,38 +1313,63 @@
   </section>
 
 
-  <!-- ================= EVENT ================= -->
+
+  <!-- =====================================================
+       EVENT
+  ====================================================== -->
+
   <section id="event" class="py-20">
 
     <div class="max-w-7xl mx-auto px-6">
 
-      <h2 class="text-center text-3xl font-bold">
+
+      <h2
+        data-aos="fade-up"
+        class="text-center text-3xl font-bold"
+      >
+
         Event
+
         <span class="border-b-4 border-yellow-400">
           sedang berlangsung
         </span>
+
         di dekatmu
+
       </h2>
+
 
 
       <div
         class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12"
       >
 
-        <!-- EVENT -->
-        <article>
+
+        <!-- EVENT 1 -->
+
+        <article
+          data-aos="fade-up"
+          data-aos-delay="0"
+          data-tilt
+          class="bg-white p-4 rounded-xl"
+        >
 
           <img
             src="assets/event-1.png"
             alt="Event"
-            class="w-full"
+            class="w-full rounded-lg"
           >
+
 
           <div class="flex items-center mt-6">
 
-            <div class="border-r-2 border-gray-400 pr-4 mr-4">
+            <div
+              class="border-r-2 border-gray-400 pr-4 mr-4"
+            >
 
-              <p class="text-3xl font-bold text-violet-700">
+              <p
+                class="text-3xl font-bold text-violet-700"
+              >
                 21
               </p>
 
@@ -855,6 +1378,7 @@
               </p>
 
             </div>
+
 
             <div class="flex items-center gap-2">
 
@@ -872,27 +1396,43 @@
 
           </div>
 
+
           <h3 class="text-xl font-bold mt-5">
+
             Linear Regression in Python:
             Introduction to Simple Linear
+
           </h3>
 
         </article>
 
 
-        <article>
+
+        <!-- EVENT 2 -->
+
+        <article
+          data-aos="fade-up"
+          data-aos-delay="150"
+          data-tilt
+          class="bg-white p-4 rounded-xl"
+        >
 
           <img
             src="assets/event-2.png"
             alt="Event"
-            class="w-full"
+            class="w-full rounded-lg"
           >
+
 
           <div class="flex items-center mt-6">
 
-            <div class="border-r-2 border-gray-400 pr-4 mr-4">
+            <div
+              class="border-r-2 border-gray-400 pr-4 mr-4"
+            >
 
-              <p class="text-3xl font-bold text-violet-700">
+              <p
+                class="text-3xl font-bold text-violet-700"
+              >
                 21
               </p>
 
@@ -901,6 +1441,7 @@
               </p>
 
             </div>
+
 
             <div class="flex items-center gap-2">
 
@@ -918,27 +1459,43 @@
 
           </div>
 
+
           <h3 class="text-xl font-bold mt-5">
+
             Linear Regression in Python:
             Introduction to Simple Linear
+
           </h3>
 
         </article>
 
 
-        <article>
+
+        <!-- EVENT 3 -->
+
+        <article
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-tilt
+          class="bg-white p-4 rounded-xl"
+        >
 
           <img
             src="assets/event-3.png"
             alt="Event"
-            class="w-full"
+            class="w-full rounded-lg"
           >
+
 
           <div class="flex items-center mt-6">
 
-            <div class="border-r-2 border-gray-400 pr-4 mr-4">
+            <div
+              class="border-r-2 border-gray-400 pr-4 mr-4"
+            >
 
-              <p class="text-3xl font-bold text-violet-700">
+              <p
+                class="text-3xl font-bold text-violet-700"
+              >
                 21
               </p>
 
@@ -947,6 +1504,7 @@
               </p>
 
             </div>
+
 
             <div class="flex items-center gap-2">
 
@@ -964,9 +1522,12 @@
 
           </div>
 
+
           <h3 class="text-xl font-bold mt-5">
+
             Linear Regression in Python:
             Introduction to Simple Linear
+
           </h3>
 
         </article>
@@ -978,7 +1539,11 @@
   </section>
 
 
-  <!-- ================= FOOTER ================= -->
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
   <footer
     id="contact"
     class="bg-gray-950 text-white"
@@ -986,12 +1551,15 @@
 
     <div class="max-w-7xl mx-auto px-6 py-16">
 
+
       <div
         class="grid sm:grid-cols-2 lg:grid-cols-4 gap-12 border-b border-gray-700 pb-16"
       >
 
-        <!-- About -->
-        <div>
+
+        <!-- ABOUT -->
+
+        <div data-aos="fade-up">
 
           <img
             src="assets/logo-ligasmk-white.png"
@@ -999,43 +1567,60 @@
             class="h-10"
           >
 
-          <p class="mt-8 text-gray-400 leading-relaxed">
+
+          <p
+            class="mt-8 text-gray-400 leading-relaxed"
+          >
+
             Mengubah kehidupan, bisnis, dan bangsa melalui transformasi
             talenta di bidang teknologi digital.
+
           </p>
 
-          <div class="flex gap-3 mt-8">
+
+          <div class="flex gap-4 mt-8">
 
             <a href="#" aria-label="Facebook">
+
               <img
                 src="assets/icon-facebook-white.svg"
                 alt=""
                 class="w-6"
               >
+
             </a>
 
+
             <a href="#" aria-label="Twitter">
+
               <img
                 src="assets/icon-twitter-white.svg"
                 alt=""
                 class="w-6"
               >
+
             </a>
 
+
             <a href="#" aria-label="LinkedIn">
+
               <img
                 src="assets/icon-linkedin-white.svg"
                 alt=""
                 class="w-6"
               >
+
             </a>
 
+
             <a href="#" aria-label="YouTube">
+
               <img
                 src="assets/icon-youtube-white.svg"
                 alt=""
                 class="w-6"
               >
+
             </a>
 
           </div>
@@ -1043,14 +1628,19 @@
         </div>
 
 
-        <!-- Resources -->
-        <div>
+
+        <!-- RESOURCES -->
+
+        <div data-aos="fade-up" data-aos-delay="100">
 
           <h3 class="text-xl font-bold">
             Resources
           </h3>
 
-          <ul class="mt-8 space-y-4 text-gray-400">
+
+          <ul
+            class="mt-8 space-y-4 text-gray-400"
+          >
 
             <li>
               <a href="#" class="hover:text-white transition">
@@ -1075,14 +1665,19 @@
         </div>
 
 
-        <!-- Support -->
-        <div>
+
+        <!-- SUPPORT -->
+
+        <div data-aos="fade-up" data-aos-delay="200">
 
           <h3 class="text-xl font-bold">
             Support
           </h3>
 
-          <ul class="mt-8 space-y-4 text-gray-400">
+
+          <ul
+            class="mt-8 space-y-4 text-gray-400"
+          >
 
             <li>
               <a href="#" class="hover:text-white transition">
@@ -1119,33 +1714,41 @@
         </div>
 
 
-        <!-- Download -->
-        <div>
+
+        <!-- DOWNLOAD -->
+
+        <div data-aos="fade-up" data-aos-delay="300">
 
           <h3 class="text-xl font-bold">
             Download Now
           </h3>
 
+
           <a
             href="#"
             class="block bg-white w-44 p-2 rounded mt-8"
           >
+
             <img
               src="assets/logo-appstore.png"
               alt="Download on App Store"
               class="mx-auto"
             >
+
           </a>
+
 
           <a
             href="#"
             class="block bg-white w-44 p-2 rounded mt-3"
           >
+
             <img
               src="assets/logo-googleplay.png"
               alt="Get it on Google Play"
               class="mx-auto"
             >
+
           </a>
 
         </div>
@@ -1153,7 +1756,9 @@
       </div>
 
 
-      <!-- Bottom -->
+
+      <!-- FOOTER BOTTOM -->
+
       <div
         class="flex flex-col md:flex-row justify-between gap-6 pt-6 text-sm text-gray-400"
       >
@@ -1182,6 +1787,7 @@
 
         </div>
 
+
         <p>
           Liga SMK 2022
         </p>
@@ -1191,6 +1797,85 @@
     </div>
 
   </footer>
+
+
+
+  <!-- =====================================================
+       JAVASCRIPT LIBRARIES
+  ====================================================== -->
+
+  <!-- AOS -->
+  <script
+    src="https://unpkg.com/aos@2.3.1/dist/aos.js"
+  ></script>
+
+
+  <!-- VANILLA TILT -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"
+  ></script>
+
+
+
+  <!-- =====================================================
+       INITIALIZATION
+  ====================================================== -->
+
+  <script>
+
+    /*
+    ========================================================
+    AOS INITIALIZATION
+    ========================================================
+    */
+
+    AOS.init({
+
+      duration: 800,
+
+      easing: "ease-out-cubic",
+
+      once: true,
+
+      offset: 100,
+
+      mirror: false
+
+    });
+
+
+
+    /*
+    ========================================================
+    VANILLA TILT INITIALIZATION
+    ========================================================
+    */
+
+    VanillaTilt.init(
+      document.querySelectorAll("[data-tilt]"),
+      {
+
+        max: 8,
+
+        speed: 500,
+
+        glare: true,
+
+        "max-glare": 0.15,
+
+        scale: 1.02,
+
+        perspective: 1000,
+
+        transition: true,
+
+        reset: true
+
+      }
+    );
+
+  </script>
+
 
 </body>
 
